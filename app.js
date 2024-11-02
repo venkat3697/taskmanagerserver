@@ -64,7 +64,7 @@ app.get(
     // Redirect user with token in URL query (or set it in cookies/local storage on client)
     res.redirect(
       // `http://localhost:3000/dashboard?token=${token}&username=${req.user.displayName}`
-      `http://mellifluous-kulfi-088a27.netlify.app/dashboard?token=${token}&username=${req.user.displayName}`
+      `https://mellifluous-kulfi-088a27.netlify.app/dashboard?token=${token}&username=${req.user.displayName}`
     );
   }
 );
